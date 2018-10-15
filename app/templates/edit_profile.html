@@ -1,0 +1,178 @@
+{% extends "base.html" %}
+{% block page_content %}
+    <header>
+        <h2>我的博客</h2>
+        <p class="lead">A calm blue sky</p>
+    </header>
+    <hr class="separator">
+    <div class="container">
+            <main class="col-sm-11 col-md-10">
+        <div class="col-sm-1 col-md-2" id="side_nav">
+            <ul class="well nav">
+                {% for item in side_nav %}
+                    <li>
+                        <a href="{{ item[0] }}">{{ item[1] }}</a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+                <h1>Skateboards</h1>
+                The skateboard is the way cool kids get around
+
+
+                <article>
+                    <h2>Longboards</h2>
+                    Longboards are a type of skateboard with a longer
+                    wheelbase and larger, softer wheels.
+
+                    ...
+
+                    ...
+
+                </article>
+                            <article>
+                    <h2>Longboards</h2>
+                    Longboards are a type of skateboard with a longer
+                    wheelbase and larger, softer wheels.
+
+                    ...
+
+                    ...
+
+                </article>
+                            <article>
+                    <h2>Longboards</h2>
+                    Longboards are a type of skateboard with a longer
+                    wheelbase and larger, softer wheels.
+
+                    ...
+
+                    ...
+
+                </article>
+                            <article>
+                    <h2>Longboards</h2>
+                    Longboards are a type of skateboard with a longer
+                    wheelbase and larger, softer wheels.
+
+                    ...
+
+                    ...
+
+                </article>
+                            <article>
+                    <h2>Longboards</h2>
+                    Longboards are a type of skateboard with a longer
+                    wheelbase and larger, softer wheels.
+
+                    ...
+
+                    ...
+
+                </article>
+                            <article>
+                    <h2>Longboards</h2>
+                    Longboards are a type of skateboard with a longer
+                    wheelbase and larger, softer wheels.
+
+                    ...
+
+                    ...
+
+                </article>
+                            <article>
+                    <h2>Longboards</h2>
+                    Longboards are a type of skateboard with a longer
+                    wheelbase and larger, softer wheels.
+
+                    ...
+
+                    ...
+
+                </article>
+                            <article>
+                    <h2>Longboards</h2>
+                    Longboards are a type of skateboard with a longer
+                    wheelbase and larger, softer wheels.
+
+                    ...
+
+                    ...
+
+                </article>
+                            <article>
+                    <h2>Longboards</h2>
+                    Longboards are a type of skateboard with a longer
+                    wheelbase and larger, softer wheels.
+
+                    ...
+
+                    ...
+
+                </article>
+                            <article>
+                    <h2>Longboards</h2>
+                    Longboards are a type of skateboard with a longer
+                    wheelbase and larger, softer wheels.
+
+                    ...
+
+                    ...
+
+                </article>
+                            <article>
+                    <h2>Longboards</h2>
+                    Longboards are a type of skateboard with a longer
+                    wheelbase and larger, softer wheels.
+
+                    ...
+
+                    ...
+
+                </article>
+                            <article>
+                    <h2>Longboards</h2>
+                    Longboards are a type of skateboard with a longer
+                    wheelbase and larger, softer wheels.
+
+                    ...
+
+                    ...
+
+                </article>
+                            <article>
+                    <h2>Longboards</h2>
+                    Longboards are a type of skateboard with a longer
+                    wheelbase and larger, softer wheels.
+
+                    ...
+
+                    ...
+
+                </article>
+
+
+            </main>
+            <aside class="col-sm-1 col-md-2">
+                <div>
+                    <article>
+                    <h2>Aside</h2>
+                    Longboards are a type of skateboard with a longer
+                    wheelbase and larger, softer wheels.
+
+                    ...
+
+                    ...
+
+                </article>
+                </div>
+            </aside>
+        </div>
+{%- endblock page_content %}
+
+{% block tool_box_items %}
+    <a href="#" id="back_top" title="Back to Top" class="btn btn-default">
+        <i class="fa fa-share"></i>
+    </a>
+    {{ super() }}
+{%- endblock tool_box_items %}

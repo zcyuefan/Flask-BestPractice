@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% from "_macros.html" import render_carousel %}
+{% block page_content %}
+    <div class="container">
+            <main class="col-md-8">
+                {{ render_carousel(carousel_items) }}
+                <h1>Main Content</h1>
+                The main content
+
+
+                <article>
+                    <h2>Hello</h2>
+                    Hello hello hello.
+
+                    ...
+
+                    ...
+
+                </article>
+            </main>
+            <aside class="col-md-4">
+                    <h3>Aside Content</h3>
+                    Hello hello hello.
+
+                    ...
+
+                    ...
+            </aside>
+        </div>
+{%- endblock page_content %}
+
+{% block tool_box %}
+    <div class="toolbox" id="tool_box">
+        <a href="#" id="back_top" title="Back to Top" class="btn btn-default">
+            <i class="fa fa-share"></i>
+        </a>
+        <a href="#" id="share" title="Share" class="btn btn-default">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+{%- endblock tool_box %}
